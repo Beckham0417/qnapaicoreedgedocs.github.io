@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FaceLandmarkerService Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/FaceLandmarkerService" class="dashAnchor"></a>
+    <a title="FaceLandmarkerService Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (100% documented)</p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">Index</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        <a href="../Classes.html">Classes</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        QNAPAICoreEdge.FaceLandmarkerService Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/FaceLandmarkerService.html">FaceLandmarkerService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ImageEmbedderService.html">ImageEmbedderService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/InferenceConfigurationManager.html">InferenceConfigurationManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OverlayObject.html">OverlayObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OverlayView.html">OverlayView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/QNAPAICoreEdgeSDK.html">QNAPAICoreEdgeSDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/QNAPAICoreEdgeSDK/BoundingBox.html">– BoundingBox</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SlidingWindow.html">SlidingWindow</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ImageEmbedderDelegate.html">ImageEmbedderDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Model.html">Model</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/FaceLandmarkerServiceLiveStreamDelegate.html">FaceLandmarkerServiceLiveStreamDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/FaceLandmarkerServiceVideoDelegate.html">FaceLandmarkerServiceVideoDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ImageEmbedderServiceLiveStreamDelegate.html">ImageEmbedderServiceLiveStreamDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/DefaultConstants.html">DefaultConstants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FaceLandmarkOverlay.html">FaceLandmarkOverlay</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/FaceLandmarkerServiceResultBundle.html">FaceLandmarkerServiceResultBundle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MultiFaceLandmarkOverlay.html">MultiFaceLandmarkOverlay</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ResultBundle.html">ResultBundle</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>FaceLandmarkerService</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">FaceLandmarkerService</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">FaceLandmarkerService</span><span class="p">:</span> <span class="kt">FaceLandmarkerLiveStreamDelegate</span></code></pre>
+
+                </div>
+              </div>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QNAPAICoreEdge21FaceLandmarkerServiceC18liveStreamDelegateAA0cde4LivegH0_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/liveStreamDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QNAPAICoreEdge21FaceLandmarkerServiceC18liveStreamDelegateAA0cde4LivegH0_pSgvp">liveStreamDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">weak</span> <span class="k">var</span> <span class="nv">liveStreamDelegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/FaceLandmarkerServiceLiveStreamDelegate.html">FaceLandmarkerServiceLiveStreamDelegate</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QNAPAICoreEdge21FaceLandmarkerServiceC13videoDelegateAA0cde5VideoG0_pSgvp"></a>
+                    <a name="//apple_ref/swift/Property/videoDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QNAPAICoreEdge21FaceLandmarkerServiceC13videoDelegateAA0cde5VideoG0_pSgvp">videoDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">weak</span> <span class="k">var</span> <span class="nv">videoDelegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/FaceLandmarkerServiceVideoDelegate.html">FaceLandmarkerServiceVideoDelegate</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QNAPAICoreEdge21FaceLandmarkerServiceC04faceD0So07MPPFaceD0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/faceLandmarker" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QNAPAICoreEdge21FaceLandmarkerServiceC04faceD0So07MPPFaceD0CSgvp">faceLandmarker</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">faceLandmarker</span><span class="p">:</span> <span class="kt">FaceLandmarker</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QNAPAICoreEdge21FaceLandmarkerServiceC11runningModeSo010MPPRunningG0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/runningMode" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QNAPAICoreEdge21FaceLandmarkerServiceC11runningModeSo010MPPRunningG0Vvp">runningMode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private(set)</span> <span class="k">var</span> <span class="nv">runningMode</span><span class="p">:</span> <span class="kt">RunningMode</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Static%20Initializers"></a>
+                <a name="//apple_ref/swift/Section/Static Initializers" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Static%20Initializers"></a>
+                  <h3 class="section-name"><span>Static Initializers</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QNAPAICoreEdge21FaceLandmarkerServiceC05videocdE09modelPath8numFaces03minC19DetectionConfidence0kc8PresenceM00k8TrackingM00F8Delegate8delegateACSgSSSg_SiS3fAA0cde5VideoP0_pSgSo11MPPDelegateVtFZ"></a>
+                    <a name="//apple_ref/swift/Method/videoFaceLandmarkerService(modelPath:numFaces:minFaceDetectionConfidence:minFacePresenceConfidence:minTrackingConfidence:videoDelegate:delegate:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QNAPAICoreEdge21FaceLandmarkerServiceC05videocdE09modelPath8numFaces03minC19DetectionConfidence0kc8PresenceM00k8TrackingM00F8Delegate8delegateACSgSSSg_SiS3fAA0cde5VideoP0_pSgSo11MPPDelegateVtFZ">videoFaceLandmarkerService(modelPath:<wbr>numFaces:<wbr>minFaceDetectionConfidence:<wbr>minFacePresenceConfidence:<wbr>minTrackingConfidence:<wbr>videoDelegate:<wbr>delegate:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">videoFaceLandmarkerService</span><span class="p">(</span>
+  <span class="nv">modelPath</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span>
+  <span class="nv">numFaces</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span>
+  <span class="nv">minFaceDetectionConfidence</span><span class="p">:</span> <span class="kt">Float</span><span class="p">,</span>
+  <span class="nv">minFacePresenceConfidence</span><span class="p">:</span> <span class="kt">Float</span><span class="p">,</span>
+  <span class="nv">minTrackingConfidence</span><span class="p">:</span> <span class="kt">Float</span><span class="p">,</span>
+  <span class="nv">videoDelegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/FaceLandmarkerServiceVideoDelegate.html">FaceLandmarkerServiceVideoDelegate</a></span><span class="p">?,</span>
+  <span class="nv">delegate</span><span class="p">:</span> <span class="kt">Delegate</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">FaceLandmarkerService</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QNAPAICoreEdge21FaceLandmarkerServiceC010liveStreamcdE09modelPath8numFaces03minC19DetectionConfidence0lc8PresenceN00l8TrackingN00fG8Delegate8delegateACSgSSSg_SiS3fAA0cde4LivegQ0_pSgSo11MPPDelegateVtFZ"></a>
+                    <a name="//apple_ref/swift/Method/liveStreamFaceLandmarkerService(modelPath:numFaces:minFaceDetectionConfidence:minFacePresenceConfidence:minTrackingConfidence:liveStreamDelegate:delegate:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QNAPAICoreEdge21FaceLandmarkerServiceC010liveStreamcdE09modelPath8numFaces03minC19DetectionConfidence0lc8PresenceN00l8TrackingN00fG8Delegate8delegateACSgSSSg_SiS3fAA0cde4LivegQ0_pSgSo11MPPDelegateVtFZ">liveStreamFaceLandmarkerService(modelPath:<wbr>numFaces:<wbr>minFaceDetectionConfidence:<wbr>minFacePresenceConfidence:<wbr>minTrackingConfidence:<wbr>liveStreamDelegate:<wbr>delegate:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">liveStreamFaceLandmarkerService</span><span class="p">(</span>
+  <span class="nv">modelPath</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span>
+  <span class="nv">numFaces</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span>
+  <span class="nv">minFaceDetectionConfidence</span><span class="p">:</span> <span class="kt">Float</span><span class="p">,</span>
+  <span class="nv">minFacePresenceConfidence</span><span class="p">:</span> <span class="kt">Float</span><span class="p">,</span>
+  <span class="nv">minTrackingConfidence</span><span class="p">:</span> <span class="kt">Float</span><span class="p">,</span>
+  <span class="nv">liveStreamDelegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/FaceLandmarkerServiceLiveStreamDelegate.html">FaceLandmarkerServiceLiveStreamDelegate</a></span><span class="p">?,</span>
+  <span class="nv">delegate</span><span class="p">:</span> <span class="kt">Delegate</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">FaceLandmarkerService</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QNAPAICoreEdge21FaceLandmarkerServiceC010stillImagedE09modelPath8numFaces03minC19DetectionConfidence0lc8PresenceN00l8TrackingN08delegateACSgSSSg_SiS3fSo11MPPDelegateVtFZ"></a>
+                    <a name="//apple_ref/swift/Method/stillImageLandmarkerService(modelPath:numFaces:minFaceDetectionConfidence:minFacePresenceConfidence:minTrackingConfidence:delegate:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QNAPAICoreEdge21FaceLandmarkerServiceC010stillImagedE09modelPath8numFaces03minC19DetectionConfidence0lc8PresenceN00l8TrackingN08delegateACSgSSSg_SiS3fSo11MPPDelegateVtFZ">stillImageLandmarkerService(modelPath:<wbr>numFaces:<wbr>minFaceDetectionConfidence:<wbr>minFacePresenceConfidence:<wbr>minTrackingConfidence:<wbr>delegate:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">stillImageLandmarkerService</span><span class="p">(</span>
+  <span class="nv">modelPath</span><span class="p">:</span> <span class="kt">String</span><span class="p">?,</span>
+  <span class="nv">numFaces</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span>
+  <span class="nv">minFaceDetectionConfidence</span><span class="p">:</span> <span class="kt">Float</span><span class="p">,</span>
+  <span class="nv">minFacePresenceConfidence</span><span class="p">:</span> <span class="kt">Float</span><span class="p">,</span>
+  <span class="nv">minTrackingConfidence</span><span class="p">:</span> <span class="kt">Float</span><span class="p">,</span>
+  <span class="nv">delegate</span><span class="p">:</span> <span class="kt">Delegate</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">FaceLandmarkerService</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Detection%20Methods%20for%20Different%20Modes"></a>
+                <a name="//apple_ref/swift/Section/Detection Methods for Different Modes" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Detection%20Methods%20for%20Different%20Modes"></a>
+                  <h3 class="section-name"><span>Detection Methods for Different Modes</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QNAPAICoreEdge21FaceLandmarkerServiceC6detect5imageAA0cdE12ResultBundleVSgSo7UIImageC_tF"></a>
+                    <a name="//apple_ref/swift/Method/detect(image:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QNAPAICoreEdge21FaceLandmarkerServiceC6detect5imageAA0cdE12ResultBundleVSgSo7UIImageC_tF">detect(image:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This method return FaceLandmarkerResult and infrenceTime when receive an image
+*</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">detect</span><span class="p">(</span><span class="nv">image</span><span class="p">:</span> <span class="kt">UIImage</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/FaceLandmarkerServiceResultBundle.html">FaceLandmarkerServiceResultBundle</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QNAPAICoreEdge21FaceLandmarkerServiceC11detectAsync12sampleBuffer11orientation10timeStampsySo08CMSampleI3Refa_So18UIImageOrientationVSitF"></a>
+                    <a name="//apple_ref/swift/Method/detectAsync(sampleBuffer:orientation:timeStamps:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QNAPAICoreEdge21FaceLandmarkerServiceC11detectAsync12sampleBuffer11orientation10timeStampsySo08CMSampleI3Refa_So18UIImageOrientationVSitF">detectAsync(sampleBuffer:<wbr>orientation:<wbr>timeStamps:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">detectAsync</span><span class="p">(</span>
+  <span class="nv">sampleBuffer</span><span class="p">:</span> <span class="kt">CMSampleBuffer</span><span class="p">,</span>
+  <span class="nv">orientation</span><span class="p">:</span> <span class="kt">UIImage</span><span class="o">.</span><span class="kt">Orientation</span><span class="p">,</span>
+  <span class="nv">timeStamps</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:14QNAPAICoreEdge21FaceLandmarkerServiceC6detect10videoAsset22durationInMilliseconds017inferenceIntervaljK0AA0cdE12ResultBundleVSgSo7AVAssetC_S2dtYaF"></a>
+                    <a name="//apple_ref/swift/Method/detect(videoAsset:durationInMilliseconds:inferenceIntervalInMilliseconds:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:14QNAPAICoreEdge21FaceLandmarkerServiceC6detect10videoAsset22durationInMilliseconds017inferenceIntervaljK0AA0cdE12ResultBundleVSgSo7AVAssetC_S2dtYaF">detect(videoAsset:<wbr>durationInMilliseconds:<wbr>inferenceIntervalInMilliseconds:<wbr>)</a>
+                    </code>
+                      <span class="declaration-note">
+                        Asynchronous
+                      </span>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">detect</span><span class="p">(</span>
+  <span class="nv">videoAsset</span><span class="p">:</span> <span class="kt">AVAsset</span><span class="p">,</span>
+  <span class="nv">durationInMilliseconds</span><span class="p">:</span> <span class="kt">Double</span><span class="p">,</span>
+  <span class="nv">inferenceIntervalInMilliseconds</span><span class="p">:</span> <span class="kt">Double</span><span class="p">)</span> <span class="k">async</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/FaceLandmarkerServiceResultBundle.html">FaceLandmarkerServiceResultBundle</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/FaceLandmarkerLiveStreamDelegate%20Methods"></a>
+                <a name="//apple_ref/swift/Section/FaceLandmarkerLiveStreamDelegate Methods" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/FaceLandmarkerLiveStreamDelegate%20Methods"></a>
+                  <h3 class="section-name"><span>FaceLandmarkerLiveStreamDelegate Methods</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@QNAPAICoreEdge@objc(cs)FaceLandmarkerService(im)faceLandmarker:didFinishDetectionWithResult:timestampInMilliseconds:error:"></a>
+                    <a name="//apple_ref/swift/Method/faceLandmarker(_:didFinishDetection:timestampInMilliseconds:error:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@QNAPAICoreEdge@objc(cs)FaceLandmarkerService(im)faceLandmarker:didFinishDetectionWithResult:timestampInMilliseconds:error:">faceLandmarker(_:<wbr>didFinishDetection:<wbr>timestampInMilliseconds:<wbr>error:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">faceLandmarker</span><span class="p">(</span>
+  <span class="n">_</span> <span class="nv">faceLandmarker</span><span class="p">:</span> <span class="kt">FaceLandmarker</span><span class="p">,</span>
+  <span class="n">didFinishDetection</span> <span class="nv">result</span><span class="p">:</span> <span class="kt">FaceLandmarkerResult</span><span class="p">?,</span>
+  <span class="nv">timestampInMilliseconds</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span>
+  <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2025 <a class="link" href="" target="_blank" rel="external noopener"></a>. All rights reserved. (Last updated: 2025-02-27)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
